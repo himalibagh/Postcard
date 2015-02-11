@@ -105,6 +105,15 @@
                                     <action selector="sendMailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dbF-fo-Kct"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0nZ-og-vvP">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="36" y="182" width="63" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -114,6 +123,7 @@
                                 <exclude reference="OQh-cj-1eX"/>
                                 <exclude reference="mJa-kb-nP4"/>
                                 <exclude reference="PGn-fT-NWi"/>
+                                <exclude reference="0nZ-og-vvP"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -123,6 +133,7 @@
                                 <include reference="OQh-cj-1eX"/>
                                 <include reference="mJa-kb-nP4"/>
                                 <include reference="PGn-fT-NWi"/>
+                                <include reference="0nZ-og-vvP"/>
                             </mask>
                         </variation>
                     </view>
@@ -131,6 +142,7 @@
                         <outlet property="enterNameTextField" destination="u6H-tD-Gmb" id="jJB-aF-gMd"/>
                         <outlet property="mailButton" destination="PGn-fT-NWi" id="l0F-hz-46k"/>
                         <outlet property="messageLabel" destination="OQh-cj-1eX" id="efu-P3-efc"/>
+                        <outlet property="nameDisplayTextField" destination="0nZ-og-vvP" id="Yta-Ia-qzU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
